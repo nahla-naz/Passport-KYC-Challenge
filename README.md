@@ -1,4 +1,4 @@
-# Passport Document Crop and Orientation Challenge with FastAPI
+# Passport Document - Crop and Orientation Challenge with FastAPI
 Detect Passport from image, crop it and correct its orientation.
 
 
