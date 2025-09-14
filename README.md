@@ -35,7 +35,7 @@ Go to the Swagger URL to test with different Passport document images : " http:/
 
     4. Correct orientation of Document using OpenCV (Correct_Orientation2.py): After cropping the document, orientation is corrected using cv2.HoughLines
 
-    NOTE: This method was used instead of pytesseract Orientation and Script detection (pytesseract.image_to_osd - in Correct_Orientation1.py ) as accuracy was low.
+    NOTE: This method was used instead of pytesseract Orientation and Script detection (pytesseract.image_to_osd - in Correct_Orientation1.py ) for better accuracy.
 
     5. Face orientation using Mediapipe (Detect_face.py): For further correction of document image, image is rotated until Face is detected.
 
