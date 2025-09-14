@@ -1,5 +1,5 @@
 # Passport Document - Crop and Orientation Challenge with OpenCV
-Detect Passport from image, crop it and correct its orientation.
+Detect Passport document from image, crop it and correct its orientation.
 
 *Tools used :  OpenCV, Rembg, Mediapipe, FastAPI*
 
