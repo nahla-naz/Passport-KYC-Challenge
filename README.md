@@ -9,7 +9,7 @@ Detect Passport document from image, crop it and correct its orientation.
 
 # Instructions:
 
-1. Run App_main.py to run the Fast API application
+1. Run App_main.py to start the Fast API application
 
 2. To test :
 
