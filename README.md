@@ -4,13 +4,13 @@ Detect Passport from image, crop it and correct its orientation.
 
 PASSPORT DOCUMENT CROP AND ORIENTATION CHALLENGE WITH FASTAPI
 
-Tools used :  OpenCV, Rembg, Mediapipe
+# Tools used :  OpenCV, Rembg, Mediapipe
 
-Pre-requisites:
+# Pre-requisites:
 1. Python version : 3.11
 2. Install all dependencies in requirements.txt
 
-Instructions:
+# Instructions:
 
 1. Run App_main.py to run the Fast API application
 
@@ -25,7 +25,7 @@ Go to the Swagger URL to test with different Passport document images : " http:/
 
 
 
-Detailed description: 
+# Detailed description: 
 
 
     Pipeline for Passport Document crop and Orientation includes:-
