@@ -1,4 +1,4 @@
-# Passport Document - Crop and Orientation Challenge with FastAPI
+# Passport Document - Crop and Orientation Challenge with OpenCV
 Detect Passport from image, crop it and correct its orientation.
 
 *Tools used :  OpenCV, Rembg, Mediapipe, FastAPI*
@@ -25,8 +25,7 @@ Go to the Swagger URL to test with different Passport document images : " http:/
 # Detailed description: 
 
 
-    Pipeline for Passport Document crop and Orientation includes:-
-
+    PIPELINE: 
 
     1. Checking Document size using OpenCV contours (Check size.py): The Area of image and Area of document are compared to determine whether the document image is already cropped.
 
@@ -44,8 +43,6 @@ Go to the Swagger URL to test with different Passport document images : " http:/
 
     7. Convert image to Base64 string and save the image as BASE64_OUTPUT.png
 
-
-    Note: Mostly OpenCV methods were used in this challenge because of limited time and dataset availability.
 
     
 
