@@ -27,11 +27,11 @@ Go to the Swagger URL to test with different Passport document images : " http:/
 
     PIPELINE: 
 
-    1. Checking Document size using OpenCV contours (Check size.py): The Area of image and Area of document are compared to determine whether the document image is already cropped.
+    1. Check Document size using OpenCV contours (Check size.py): The Area of image and Area of document are compared to determine whether the document image is already cropped.
 
     2. Rembg model for Background removal (Document_Crop1.py): If Document is not cropped, image is sent to Rembg model to turn the background into black colour.
 
-    3. Cropping document using OpenCV contours(Document_Crop2.py):  After removing the background, document is cropped using OpenCV contours.
+    3. Crop document using OpenCV contours(Document_Crop2.py):  After removing the background, document is cropped using OpenCV contours.
 
     4. Correct orientation of Document using OpenCV (Correct_Orientation2.py): After cropping the document, orientation is corrected using cv2.HoughLines
 
