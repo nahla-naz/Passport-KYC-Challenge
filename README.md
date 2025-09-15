@@ -18,7 +18,7 @@ Detect Passport document from image, crop it and correct its orientation.
 
 2. To test :
 
-Go to the Swagger URL to test with different Passport document images : " http://localhost:8000/docs " (Change IP and PORT in CONFIG.ini file if needed)
+Go to the Swagger URL to test with different Passport document images : " http://localhost:8000/docs " (Change IP and Port in CONFIG.ini file if needed)
 
 
 3. Result image saved as "BASE64_OUTPUT.png" in working directory.
