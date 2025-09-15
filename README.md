@@ -30,23 +30,23 @@ Go to the Swagger URL to test with different Passport document images : " http:/
 # Detailed description: 
 
 
-    PIPELINE: 
+PIPELINE: 
 
-    1. Check Document size using OpenCV contours (Check size.py): The Area of image and Area of document are compared to determine whether the document image is already cropped.
+1. Check Document size using OpenCV contours (Check size.py): The Area of image and Area of document are compared to determine whether the document image is already cropped.
 
-    2. Rembg model for Background removal (Document_Crop1.py): If Document is not cropped, image is sent to Rembg model to turn the background into black colour.
+2. Rembg model for Background removal (Document_Crop1.py): If Document is not cropped, image is sent to Rembg model to turn the background into black colour.
 
-    3. Crop document using OpenCV contours(Document_Crop2.py):  After removing the background, document is cropped using OpenCV contours.
+3. Crop document using OpenCV contours(Document_Crop2.py):  After removing the background, document is cropped using OpenCV contours.
 
-    4. Correct orientation of Document using OpenCV (Correct_Orientation2.py): After cropping the document, orientation is corrected using cv2.HoughLines
+4. Correct orientation of Document using OpenCV (Correct_Orientation2.py): After cropping the document, orientation is corrected using cv2.HoughLines
 
-    NOTE: This method was used instead of pytesseract Orientation and Script detection (pytesseract.image_to_osd - in Correct_Orientation1.py ) for better accuracy.
+NOTE: This method was used instead of pytesseract Orientation and Script detection (pytesseract.image_to_osd - in Correct_Orientation1.py ) for better accuracy.
 
-    5. Face orientation using Mediapipe (Detect_face.py): For further correction of document image, image is rotated until Face is detected.
+5. Face orientation using Mediapipe (Detect_face.py): For further correction of document image, image is rotated until Face is detected.
 
-    6. Padding using OpenCV
+6. Padding using OpenCV
 
-    7. Convert image to Base64 string and save the image as BASE64_OUTPUT.png
+7. Convert image to Base64 string and save the image as BASE64_OUTPUT.png
 
 
     
