@@ -3,6 +3,8 @@ Detect Passport document from image, crop it and correct its orientation.
 
 *Tools used :  OpenCV, Rembg, Mediapipe, FastAPI*
 
+![Alt text](Dataset/Test_image.png)
+
 # Pre-requisites:
 1. Python version : 3.11
 2. Install all dependencies in requirements.txt
