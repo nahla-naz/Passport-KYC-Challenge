@@ -1,5 +1,5 @@
 # Passport Document KYC challenge - Image processing with OpenCV
-Detect Passport document from image, crop it and correct its orientation.
+Detect Passport document from image, crop it and correct its orientation using OpenCV and FastAPI.
 
 *Tools used :  OpenCV, Rembg, Mediapipe, FastAPI*
 
